@@ -1,0 +1,30 @@
+{
+	"manifest_version": 2,
+
+	"name": "SVG2Clipboard",
+	"description": "Copy inline <svg> to clipboard as .png",
+	"version": "1.2",
+
+	"icons": {
+		"16": "split-16.png",
+		"48": "split-48.png",
+		"128": "split-128.png"
+	},
+
+	"content_scripts": [{
+		"matches": ["<all_urls>"],
+		"js": ["content.js"]
+	}],
+
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"permissions": [
+		"contextMenus",
+		"unlimitedStorage",
+		"notifications",
+		"activeTab",
+		"nativeMessaging"
+	]
+}

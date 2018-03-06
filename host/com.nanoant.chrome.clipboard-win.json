@@ -1,0 +1,9 @@
+{
+  "name": "com.nanoant.chrome.clipboard",
+  "description": "nanoANT Chrome Clipboard Host",
+  "path": "chromeclipboardhost.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://okkokibjaffhkoobdmbammbjobkljcim/"
+  ]
+}
