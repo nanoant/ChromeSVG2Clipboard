@@ -14,6 +14,8 @@ It consists of two parts:
 
 1. Chrome extension based on [SVG2PNG][SVG2PNG] code.
 
+![Screenshot](images/screenshot1.png)
+
 2. Chrome Native Messaging host written in python.
 
 
