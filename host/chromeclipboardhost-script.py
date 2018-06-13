@@ -1,4 +1,4 @@
-#!python.exe
+#!python
 
 import struct
 import sys
