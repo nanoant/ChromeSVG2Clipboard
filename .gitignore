@@ -1,2 +1,6 @@
 /*.crx
 /*.pem
+/ChromeClipboardHost/.vs/
+/ChromeClipboardHost/bin/
+/ChromeClipboardHost/obj/
+/ChromeClipboardHost/packages/
