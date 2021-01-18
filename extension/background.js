@@ -96,6 +96,10 @@ function genericOnClick(info, tab) {
 		} else if (tagName == "img") {
 			// Plain <img> -- just copy source
 			image.src = elementSVG.src;
+			if (image.src.startsWith('data:image/svg+xml,')) {
+				// Use 200% for SVG
+				scale = 2;
+			}
 		} else {
 			alert("This is not a <svg> or <img> element!");
 			return;
